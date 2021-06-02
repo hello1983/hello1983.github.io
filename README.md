@@ -1,4 +1,4 @@
-#### Shadowsocks 一键安装管理脚本
+#### 1. Shadowsocks 一键安装管理脚本
 
 ```shell
 wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ss-go.sh && chmod +x ss-go.sh && bash ss-go.sh
@@ -12,7 +12,7 @@ curl -sSL https://get.docker.com/ | sh
 curl https://get.docker.com -fsSL | sh
 ```
 
-#### Docker-compose 安装
+#### 2. Docker-compose 安装
 
 `yum install docker-compose`
 
@@ -20,7 +20,7 @@ curl https://get.docker.com -fsSL | sh
 
 `systemctl start docker`
 
-### Snell-Docker搭建
+### 3. Snell-Docker搭建
 
 ####  拉取镜像
 
