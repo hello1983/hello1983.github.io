@@ -18,7 +18,7 @@ curl https://get.docker.com -fsSL | sh
 
 #### 启动Docker
 
-`systemctl start docker`
+`systemctl enable --now docker`
 
 ### 3. Snell-Docker搭建
 
