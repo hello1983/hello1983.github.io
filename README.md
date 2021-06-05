@@ -56,3 +56,28 @@ docker run -d --env PORT=12543 --env PSK=dFDL0H4NFMOieRyeb6Ly59EJUwrCiEg --env O
    配置文件目录为/etc/snell/
    
    OBFS为 `tls`
+
+#### 4.Compose 安装
+
+##### 以下载 Docker Compose 
+
+```shell
+sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+```
+##### 执行权限
+
+```shell
+sudo chmod +x /usr/local/bin/docker-compose
+```
+##### 创建软链
+
+```shell
+sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+```
+##### 测试是否安装成功
+
+```shell
+docker-compose --version
+```
+
+
