@@ -14,11 +14,15 @@ curl https://get.docker.com -fsSL | sh
 
 #### 2. Docker-compose 安装
 
-`yum install docker-compose`
+```shell
+yum install docker-compose
+```
 
 #### 启动Docker
 
-`systemctl enable --now docker`
+```shell
+systemctl enable --now docker
+```
 
 ### 3. Snell-Docker搭建
 
