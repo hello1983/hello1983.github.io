@@ -59,7 +59,7 @@ docker run -d --env PORT=12543 --env PSK=dFDL0H4NFMOieRyeb6Ly59EJUwrCiEg --env O
 
 #### 4.Compose 安装
 
-##### 以下载 Docker Compose 
+##### 下载 Docker Compose 
 
 ```shell
 sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
